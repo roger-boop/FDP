@@ -1,0 +1,102 @@
+/home/roger/2023_self_regulatory_motifs/SwissProt
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana
+finished pdb 2 fasta
+/home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans
+finished hmmscan
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Candida_albicans
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Danio_rerio
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Escherichia_coli
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii
+/home/roger/2023_self_regulatory_motifs/Glycine_max
+finished pdb 2 fasta
+finished hmmscan
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Homo_sapiens
+finished pdb 2 fasta
+/home/roger/2023_self_regulatory_motifs/Mus_musculus
+finished hmmscan
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Oryza_sativa
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Rattus_norvegicus
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe
+finished pdb 2 fasta
+finished hmmscan
+/home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae
+/home/roger/2023_self_regulatory_motifs/Zea_mays
+finished pdb 2 fasta
+finished pdb 2 fasta
+finished hmmscan
+finished hmmscan
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+domtbl parsed
+finished AlphaFoldParser
+finished All
+domtbl parsed
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All
+finished AlphaFoldParser
+finished All

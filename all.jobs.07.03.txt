@@ -1,0 +1,102 @@
+/home/roger/2023_self_regulatory_motifs/SwissProt
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/SwissProt
+finished hmmscan /home/roger/2023_self_regulatory_motifs/SwissProt
+domtbl parsed /home/roger/2023_self_regulatory_motifs/SwissProt
+/home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana
+/home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans/
+/home/roger/2023_self_regulatory_motifs/Candida_albicans
+/home/roger/2023_self_regulatory_motifs/Danio_rerio
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Candida_albicans/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Danio_rerio/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Candida_albicans/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Danio_rerio/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Candida_albicans/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Danio_rerio/
+/home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster
+/home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum/
+/home/roger/2023_self_regulatory_motifs/Escherichia_coli
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Escherichia_coli/
+/home/roger/2023_self_regulatory_motifs/Glycine_max
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Escherichia_coli/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Escherichia_coli/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Glycine_max/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Glycine_max/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Glycine_max/
+/home/roger/2023_self_regulatory_motifs/Homo_sapiens
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Homo_sapiens/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Homo_sapiens/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Homo_sapiens/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster/
+/home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii/
+/home/roger/2023_self_regulatory_motifs/Mus_musculus
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Mus_musculus/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Mus_musculus/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Mus_musculus/
+/home/roger/2023_self_regulatory_motifs/Rattus_norvegicus
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Rattus_norvegicus/
+/home/roger/2023_self_regulatory_motifs/Oryza_sativa
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Rattus_norvegicus/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Rattus_norvegicus/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Oryza_sativa/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Oryza_sativa/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Oryza_sativa/
+/home/roger/2023_self_regulatory_motifs/Zea_mays
+/home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Zea_mays/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Zea_mays/
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Zea_mays/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe/
+/home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae
+finished pdb 2 fasta /home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae/
+finished hmmscan /home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae/
+domtbl parsed /home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii/
+finished All /home/roger/2023_self_regulatory_motifs/Methanocaldococcus_jannaschii/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Escherichia_coli/
+finished All /home/roger/2023_self_regulatory_motifs/Escherichia_coli/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe/
+finished All /home/roger/2023_self_regulatory_motifs/Schizosaccharomyces_pombe/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Candida_albicans/
+finished All /home/roger/2023_self_regulatory_motifs/Candida_albicans/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae/
+finished All /home/roger/2023_self_regulatory_motifs/Saccharomyces_cerevisiae/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum/
+finished All /home/roger/2023_self_regulatory_motifs/Dictyostelium_discoideum/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans/
+finished All /home/roger/2023_self_regulatory_motifs/Caenorhabditis_elegans/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster/
+finished All /home/roger/2023_self_regulatory_motifs/Drosophila_melanogaster/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Oryza_sativa/
+finished All /home/roger/2023_self_regulatory_motifs/Oryza_sativa/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana/
+finished All /home/roger/2023_self_regulatory_motifs/Arabidopsis_thaliana/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Rattus_norvegicus/
+finished All /home/roger/2023_self_regulatory_motifs/Rattus_norvegicus/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Mus_musculus/
+finished All /home/roger/2023_self_regulatory_motifs/Mus_musculus/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Zea_mays/
+finished All /home/roger/2023_self_regulatory_motifs/Zea_mays/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Danio_rerio/
+finished All /home/roger/2023_self_regulatory_motifs/Danio_rerio/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Glycine_max/
+finished All /home/roger/2023_self_regulatory_motifs/Glycine_max/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/Homo_sapiens/
+finished All /home/roger/2023_self_regulatory_motifs/Homo_sapiens/
+finished AlphaFoldParser /home/roger/2023_self_regulatory_motifs/SwissProt
+finished All /home/roger/2023_self_regulatory_motifs/SwissProt
