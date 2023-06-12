@@ -1,0 +1,1 @@
+autoinhibitory_sprot <- read.csv("~/2023_self_regulatory_motifs/autoinhibitory_sprot.csv")
