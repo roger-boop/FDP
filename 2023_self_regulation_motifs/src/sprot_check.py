@@ -21,49 +21,50 @@ table2 = open('autoinhibitory_sprot.csv', 'r')
 reader2 = csv.reader(table2)
 next(reader2)
 
-table3 = open('sprot_check.csv', 'w')
-writer = csv.writer(table3)
-writer.writerow(["Accession", "Organism", "Type", "Location", "Sequence", "Note", "Found"])
+table3 = open('sprot_found.csv', 'w')
+writer1 = csv.writer(table3)
+writer1.writerow(["Species","Accession","Domain","Domain Name","Motif seq","Domain N-term","Domain C-term","Motif N-term","Motif C-term","Distance Domain-Motif", "Curated motif Position", "Curated Seq"])
 
-sprot_dic = {}
-for line in reader2:
-    if line[0] not in sprot_dic.keys():
-        sprot_dic[line[0]] = [line[1:]]
-    else:
-        sprot_dic[line[0]].append(line[1:])
+table4 = open('sprot_not_found.csv', 'w')
+writer2 = csv.writer(table4)
+writer2.writerow(["Species","Accession","Domain","Domain Name","Motif seq","Domain N-term","Domain C-term","Motif N-term","Motif C-term","Distance Domain-Motif", "Curated motif Position", "Curated Seq"])
 
-found = {}
-not_found = {}
 
-c = 0
-k = 0
-
+motif_dic = {}
 for line in reader1:
     id = extact_uniprot_from_AF(line[1])
-    if id in sprot_dic.keys():
-        for data in sprot_dic[id]:
+    if id not in motif_dic.keys():
+        motif_dic[id] = [line]
+    else:
+        motif_dic[id].append(line)
+
+found = {}
+# not_found = {}
+
+for line in reader2:
+    if line[0] in motif_dic.keys():
+        for data in motif_dic[line[0]]:
             # if the positions overlap we will condsider that we found the motif/domain
-            if overlap(tuple((line[7], line[8])), data[2].strip('[]').split(':')):
-                writer.writerow([id, data[0], data[1], data[2], data[3], data[4], True])
-                print('\n', id, ':')
+            if overlap(tuple((data[7], data[8])), line[3].strip('[]').split(':')):
+                writer1.writerow(data+[line[3], line[4]])
+                print('\n', line[0], ':')
                 print(data)
                 print('-------------')
                 print(line)
-                if id not in found.keys():
-                    found[id] = [data]
+                if line[0] not in found.keys():
+                    found[line[0]] = [data]
                 else:
-                    found[id].append(data)
-                c+=1
-            else:
-                writer.writerow([id, data[0], data[1], data[2], data[3], data[4], False])
-                if id not in not_found.keys():
-                    not_found[id] = [data]
-                else:
-                    not_found[id].append(data)
-                k+=1
-print(c, 'found out of', c+k, '(', k, 'not found)')
+                    found[line[0]].append(data)
+            # else:
+            #     writer2.writerow(data+[line[3], line[4]])
+            #     if line[0] not in not_found.keys():
+            #         not_found[line[0]] = [data]
+            #     else:
+            #         not_found[line[0]].append(data)
+
+print(len(found), 'found out of 289 (', 289-len(found), 'not found)')
 
 table1.close()
 table2.close()
 table3.close()
-
+table4.close()
