@@ -7,8 +7,6 @@ Welcome to the documentation for the **Identification of the recurring domain in
 - [Scripts](#scripts)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -53,3 +51,6 @@ Explain the purpose of the script and how to use it:
 Example:
 ```sh
 python AlphaFoldParser.PDB.py --input input_file.pdb --output output_file.txt
+```
+
+## Dependencies
