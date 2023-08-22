@@ -10,7 +10,7 @@ Welcome to the documentation for the **Identification of the recurring domain in
 
 ## Introduction
 
-Briefly introduce the purpose and goals of your project. Mention what kind of tasks the included scripts are designed to perform.
+These are the scripts used in my FDP project.
 
 ## Scripts
 
