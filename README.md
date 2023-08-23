@@ -16,26 +16,25 @@ These are the scripts used in my FDP project.
 
 Here is a list of scripts included in this project and a brief description of their functionalities:
 
-1. `AlphaFoldParser.PDB.py`: Parses AlphaFold PDB structure files.
-2. `AlphaFoldParser.py`: Parses AlphaFold structure prediction files.
-3. `ce.py`: Performs CE (Contact Evaluation) calculations.
-4. `ce_roger.py`: CE calculations using the ROGER method.
-5. `calculate_rmsd.py`: Calculates RMSD (Root Mean Square Deviation) between protein structures.
-6. `domainInfo.py`: Provides information about protein domains.
-7. `domain_interpretation.py`: Interprets protein domain information.
-8. `domain_separator.py`: Separates domains from protein structures.
-9. `domtblParser.py`: Parses domtbl files.
-10. `motif3DCheck.py`: Checks 3D motifs in protein structures.
-11. `peptides_interaction.py`: Analyzes interactions involving peptides.
-12. `pdb2fasta.py`: Converts PDB files to FASTA format.
-13. `pdbview.ipynb`: Jupyter Notebook for viewing PDB structures.
-14. `sprot_check.py`: Checks protein information in SwissProt database.
-15. `sprot_check.R`: R script for protein information checking.
-16. `sprotParser.py`: Parses SwissProt files.
-17. `steps.PDB.sh`: Shell script for PDB-related steps.
-18. `steps.sh`: Shell script with general steps.
-19. `heatmap.R`: R script for generating heatmaps.
-20. `analysis.R`: R script for analysis (please provide description).
+1. `AlphaFoldParser.py`: Parses AlphaFold structure prediction files (pdb format).
+2. `AlphaFoldParser.PDB.py`: Adaptation from `AlphaFoldParser.py` that parses PDB structure files (pdb format).
+3. `ce_roger.py`: CE calculations using the ROGER method.
+4. `calculate_rmsd.py`: Calculates RMSD (Root Mean Square Deviation) between protein structures.
+5. `domainInfo.py`: Provides information about protein domains.
+6. `domain_interpretation.py`: Interprets protein domain information.
+7. `domain_separator.py`: Separates domains from protein structures.
+8. `domtblParser.py`: Parses domtbl files.
+9. `motif3DCheck.py`: Checks 3D motifs in protein structures.
+10. `peptides_interaction.py`: Analyzes interactions involving peptides.
+11. `pdb2fasta.py`: Converts PDB files to FASTA format.
+12. `pdbview.ipynb`: Jupyter Notebook for viewing PDB structures.
+13. `sprot_check.py`: Checks protein information in SwissProt database.
+14. `sprot_check.R`: R script for protein information checking.
+15. `sprotParser.py`: Parses SwissProt files.
+16. `steps.PDB.sh`: Shell script for PDB-related steps.
+17. `steps.sh`: Shell script with general steps.
+18. `heatmap.R`: R script for generating heatmaps.
+19. `analysis.R`: R script for analysis (please provide description).
 
 ## Usage
 
