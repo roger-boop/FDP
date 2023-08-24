@@ -5,7 +5,6 @@ Welcome to the documentation for the **Identification of the recurring domain in
 ## Table of Contents
 - [Introduction](#introduction)
 - [Scripts](#scripts)
-- [Usage](#usage)
 - [Dependencies](#dependencies)
 
 ## Introduction
@@ -18,17 +17,16 @@ Here is a list of scripts included in this project and a brief description of th
 
 1. `steps.sh`: Shell script with general steps. It executes all the python files in the correct order.
 2. `steps.PDB.sh`: The `steps.sh` version when using the PDB dataset.
-3. `pdb2fasta.py`: Takes a directory containing the structures and generates a fasta format file (_multifasta.fa_).
-1. `AlphaFoldParser.py`: Parses AlphaFold structure prediction files (pdb format).
-2. `AlphaFoldParser.PDB.py`: Adaptation from `AlphaFoldParser.py` that parses PDB structure files (pdb format).
-3. `ce_roger.py`: CE calculations using the ROGER method.
-4. `calculate_rmsd.py`: Calculates RMSD (Root Mean Square Deviation) between protein structures.
-5. `domainInfo.py`: Provides information about protein domains.
-6. `domain_interpretation.py`: Interprets protein domain information.
-7. `domain_separator.py`: Separates domains from protein structures.
-8. `domtblParser.py`: Parses domtbl files.
-9. `motif3DCheck.py`: Checks 3D motifs in protein structures.
-10. `peptides_interaction.py`: Analyzes interactions involving peptides.
+3. `pdb2fasta.py`: Takes a directory containing the structures and generates a fasta format file (_multifasta.fa_). Used by `steps.sh` and `steps.PDB.sh`.
+4. `domtblParser.py`: Parses the domtbl file (the output from hmmscan). Used by `steps.sh` and `steps.PDB.sh`.
+5. `AlphaFoldParser.py`: Parses AlphaFold structure prediction files (pdb format). Used by `steps.sh`.
+6. `AlphaFoldParser.PDB.py`: Adaptation from `AlphaFoldParser.py` that parses PDB structure files (pdb format). Used by `steps.PDB.sh`.
+7. `domainInfo.py`: Middle step that parses data from a shelve file to a new one. Used by `steps.sh` and `steps.PDB.sh`.
+8. `peptides_interaction.py`: Analyzes interactions involving peptides and generates a _csv_ file containing the results. Used by `steps.sh` and `steps.PDB.sh`.
+7. `domain_separator.py`: Creates a folder for each domain and saves a structure for each domain prediction (only the section that should be the domain) with data from the hmmscan.
+9. `ce_roger.py`: It finds a reference structure for each domain.
+10. `calculate_rmsd.py`: Calculates RMSD (Root Mean Square Deviation) between protein structures. Used by `ce_roger.py`.
+
 12. `pdbview.ipynb`: Jupyter Notebook for viewing PDB structures.
 13. `sprot_check.py`: Checks protein information in SwissProt database.
 14. `sprot_check.R`: R script for protein information checking.
@@ -36,20 +34,25 @@ Here is a list of scripts included in this project and a brief description of th
 18. `heatmap.R`: R script for generating heatmaps.
 19. `analysis.R`: R script for analysis (please provide description).
 
-## Usage
-
-Provide instructions on how to use each script. You can break this down into steps, including any command-line arguments or input files that need to be specified.
-
-### `AlphaFoldParser.PDB.py`
-
-Explain the purpose of the script and how to use it:
-
-1. **Installation**: Mention any setup or installation required, such as dependencies, libraries, or packages that need to be installed.
-2. **Running the Script**: Provide the command to run the script, including any command-line arguments.
-
-Example:
-```sh
-python AlphaFoldParser.PDB.py --input input_file.pdb --output output_file.txt
-```
+6. `domain_interpretation.py`: Interprets protein domain information from the hmmscan results. Analysis file.
 
 ## Dependencies
+This scripts are used in machine with ubuntu 22.10. You should have python and R installed with the following packages:
+- Python:
+  - Biopython
+  - NetworkX
+  - Pyvis.network
+  - shelve
+  - gzip
+  - matplotlib
+  - shutil
+  - subprocess
+  - csv
+  - webcolors
+  - nglview
+  - piywidgets
+- R:
+  - dplyr
+  - ggplot2
+  - plotly
+  - stringr
